@@ -21,7 +21,7 @@ def number(lines):
         # append to a new list
 
 # solution 1 (with .append())
-def numer(lines):
+def number(lines):
     if( len( lines ) < 1 ): return []
     new_array = []
     for count, line in enumerate(lines):
